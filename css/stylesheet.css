@@ -1,0 +1,17 @@
+/* General */
+
+hmtl { }
+
+* { }
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::webkit-scrollbar { display: none; }
+
+/* Styling */
