@@ -44,9 +44,7 @@ body {
 .info { }
 
 /* Input */
-.input-group {
-    border: 2px solid;
-}
+.input-group { }
 input {
   font-family: inherit;
   font-size: inherit;
