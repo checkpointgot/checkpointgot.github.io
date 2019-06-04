@@ -24,6 +24,8 @@ body {
 .frame { margin: auto;
   max-width: 800px;
   padding: 0 30px;
+  border: 2px solid #fff;
+  border-radius: 5%;
 }
 .full { width:100% }
 .center { text-align: center; }
@@ -32,5 +34,5 @@ body {
 
 /* About */
 
-#about { border: 1px solid #fff; }
+#about { }
 .info { }
