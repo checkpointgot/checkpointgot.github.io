@@ -23,7 +23,6 @@ body {
 .frame { margin: auto;
   max-width: 600px;
   padding: 0 30px;
-  border: 2px solid #0000FF;
 }
 .full { width:100% }
 .center { text-align: center; }
