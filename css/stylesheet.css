@@ -13,10 +13,11 @@ html { }
 * { }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: CothamSans;
   font-size: 24px;
   line-height: 28px;
-  color: #0000FF;
+  color: #0000ac;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -50,16 +51,16 @@ input {
 }
 input[type="email"] {
   width: 20rem;
-  color: #0000FF;
+  color: #0000ac;
   background: #FFF;
   padding: 0.1rem 0.25rem;
 }
 input[type="submit"] {
   color: #FFF;
-  background: #0000FF;
+  background: #0000ac;
 }
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  color: #0000FF;
+  color: #0000ac;
   background: none;
 }
