@@ -15,3 +15,11 @@ body {
 ::webkit-scrollbar { display: none; }
 
 /* Styling */
+
+/* Design elements */
+.frame { margin: auto; }
+
+/* About */
+
+#about { }
+.info { }
