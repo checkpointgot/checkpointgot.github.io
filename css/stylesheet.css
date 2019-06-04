@@ -7,31 +7,25 @@
 }
 
 /* General */
-
-html { }
-
+html { font-size: 100% }
 * { }
-
 body {
-  /* font-family: 'Quicksand', sans-serif; */
   font-family: CothamSans;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
   color: #0000ac;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 ::webkit-scrollbar { display: none; }
-
 /* Styling */
 
 /* Design elements */
-
 .page-wrapper { }
 .frame { margin: auto;
   max-width: 600px;
-  padding: 0 30px;
+  padding: 0 1.875rem;
 }
 .full { width:100% }
 .center { text-align: center; }
@@ -39,31 +33,44 @@ body {
 .right { text-align: right; }
 
 /* About */
-
 #about { }
 .info { }
 
-/* Input */
+/* Singup */
 .input-group { }
+.submit-button {
+  cursor: pointer;
+}
 input {
   font-family: inherit;
   font-size: inherit;
-  border: 2px solid;
+  border: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 input[type="email"] {
   width: 20rem;
   color: #0000ac;
-  background: #FFF;
   padding: 0.1rem 0.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.1em solid #0000ac;
+}
+input[type="email"]:focus {
+  outline: none;
+  color: #fff;
+  background: #0000ac
 }
 input[type="submit"] {
-  color: #FFF;
-  background: #0000ac;
-  padding: 0.75rem 1rem 0.6rem;
-  text-transform: uppercase;
-}
-input[type="submit"]:hover,
-input[type="submit"]:focus {
   color: #0000ac;
   background: none;
+  padding: 0.75rem 1rem 0.6rem;
+  text-transform: uppercase;
+  border: 0.1em solid #0000ac;
+}
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+  color: #fff;
+  background: #0000ac;
+  border: 0.1em solid #0000ac;
 }
