@@ -1,3 +1,11 @@
+/* Fonts */
+@font-face {
+    font-family: CothamSans;
+    src: url(CothamSans.otf);
+    font-weight: normal;
+    font-style: normal
+}
+
 /* General */
 
 html { }
