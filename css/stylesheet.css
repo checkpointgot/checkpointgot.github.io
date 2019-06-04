@@ -33,3 +33,13 @@ body {
 
 #about { }
 .info { }
+
+/* Input */
+.input { width: 100%; }
+.input[type="text"] { }
+.input[type="submit"] {
+  color: #fff;
+  background-color: #0000FF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
