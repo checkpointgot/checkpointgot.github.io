@@ -18,7 +18,13 @@ body {
 
 /* Design elements */
 
-.frame { margin: auto; }
+.page-wrapper { }
+.frame { margin: auto;
+  max-width: 800px;
+  padding: 0 30px;
+}
+.full { width:100% }
+.center { text-align: center; }
 
 /* About */
 
