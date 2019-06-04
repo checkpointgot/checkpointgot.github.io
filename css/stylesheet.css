@@ -33,3 +33,14 @@ body {
 
 #about { }
 .info { }
+
+/* Input */
+.input-group {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+input {
+  width: 20rem;
+  color: #fff;
+  background: #0000FF;
+}
