@@ -42,8 +42,8 @@ input {
 }
 input[type="email"] {
   width: 20rem;
-  color: #fff;
-  background: #0000FF;
+  color: #0000FF;
+  background: #FFF;
   padding: 0.1rem 0.25rem;
 }
 input[type="submit"] {
