@@ -38,12 +38,15 @@ body {
 input {
   font-family: inherit;
   font-size: inherit;
+  border: none;
 }
 input[type="email"] {
   width: 20rem;
   color: #fff;
   background: #0000FF;
+  padding: 0.1rem 0.25rem;
 }
 input[type="submit"] {
-  border: none;
+  color: #0000FF;
+  background: #FFF;
 }
