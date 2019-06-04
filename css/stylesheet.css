@@ -33,13 +33,3 @@ body {
 
 #about { }
 .info { }
-
-/* Input */
-form {
-  background-color: #0000FF;
-  color: #fff;
-}
-button {
-  margin-bottom: 0;
-  border-radius: 0;
-}
