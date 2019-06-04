@@ -45,5 +45,5 @@ input[type="email"] {
   background: #0000FF;
 }
 input[type="submit"] {
-  
+  border: none;
 }
