@@ -35,7 +35,11 @@ body {
 .info { }
 
 /* Input */
-form { }
-input { }
-input[type="text"] { }
-input[type="submit"] { }
+form {
+  background-color: #0000FF;
+  color: #fff;
+}
+button {
+  margin-bottom: 0;
+  border-radius: 0;
+}
