@@ -35,16 +35,13 @@ body {
 .info { }
 
 /* Input */
-#form {
-  width: 100%; 
-}
+#form { }
 input {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
   border: none;
-}
-input[type="text"] { color: #0000FF; }
-input[type="submit"] {
   color: #fff;
   background-color: #0000FF;
 }
+input[type="text"] { }
+input[type="submit"] { }
