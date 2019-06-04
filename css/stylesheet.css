@@ -35,12 +35,16 @@ body {
 .info { }
 
 /* Input */
-#form { border: 2px solid #0000FF; }
-input { width: 100%; }
+#form {
+  border: 2px solid #0000FF;
+  width: 100%; 
+}
+input { }
 input[type="text"] { }
 input[type="submit"] {
   color: #fff;
   background-color: #0000FF;
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
+  border: none;
 }
