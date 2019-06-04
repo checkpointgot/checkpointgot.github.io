@@ -22,7 +22,7 @@ body {
 
 .page-wrapper { }
 .frame { margin: auto;
-  max-width: 800px;
+  max-width: 600px;
   padding: 0 30px;
   border: 2px solid #fff;
 }
