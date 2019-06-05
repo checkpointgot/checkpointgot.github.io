@@ -26,10 +26,11 @@ img { }
 ::webkit-scrollbar { display: none; }
 
 /* Styling */
-h1 { font-size: 1.25rem; }
-h2 { font-size: 1rem; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
 h1,
 h2 { margin-bottom: .5rem; }
+p { }
 a {
     text-decoration: none;
     outline: none;
