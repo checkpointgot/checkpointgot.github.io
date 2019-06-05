@@ -53,7 +53,8 @@ input {
 input[type="email"] {
   width: 20rem;
   color: #0000ac;
-  padding: 0.1rem 0.25rem;
+  /* padding: 0.1rem 0.25rem; */
+  padding: 0.75rem 1rem 0.6rem;
   margin-bottom: 1rem;
   border-bottom: 0.1em solid #0000ac;
 }
@@ -66,6 +67,7 @@ input[type="submit"] {
   color: #0000ac;
   background: none;
   padding: 0.75rem 1rem 0.6rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   border: 0.1em solid #0000ac;
 }
