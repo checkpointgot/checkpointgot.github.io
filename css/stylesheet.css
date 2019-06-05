@@ -42,7 +42,7 @@ a:active { outline: none; }
 .page-wrapper { }
 .container {
     margin: 0 auto;
-    padding: 0 1.875rem;
+    padding: 1.875rem;
 }
 .frame {
   margin: 0 auto;
