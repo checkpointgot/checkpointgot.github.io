@@ -45,6 +45,7 @@ input {
   font-family: inherit;
   font-size: inherit;
   border: none;
+  border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
   -moz-appearance: none;
