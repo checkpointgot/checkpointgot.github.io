@@ -8,7 +8,10 @@
 
 /* General */
 html { font-size: 100% }
-* { }
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
   font-family: CothamSans;
   font-size: 1.5rem;
@@ -18,14 +21,41 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+svg,
+img { }
 ::webkit-scrollbar { display: none; }
+
 /* Styling */
+h1 { font-size: 1.25rem; }
+h2 { font-size: 1rem; }
+h1,
+h2 { margin-bottom: .5rem; }
+a {
+    text-decoration: none;
+    outline: none;
+}
+a:hover,
+a:active { outline: none; }
 
 /* Design elements */
 .page-wrapper { }
-.frame { margin: auto;
+.container {
+    margin: 0 auto;
+    padding: 0 1.875rem;
+}
+.frame {
+  margin: 0 auto;
   max-width: 600px;
   padding: 0 1.875rem;
+}
+.table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.table-cell {
+  display: table-cell;
+  float: none;
 }
 .full { width:100% }
 .center { text-align: center; }
@@ -76,4 +106,13 @@ input[type="submit"]:hover {
   color: #fff;
   background: #0000ac;
   border: 0.1em solid #0000ac;
+}
+
+/* Footer */
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  font-size: .8rem;
 }
