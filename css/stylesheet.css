@@ -23,7 +23,7 @@ body {
 }
 svg,
 img { }
-::webkit-scrollbar { display: none; }
+::-webkit-scrollbar { display: none; }
 
 /* Styling */
 h1 { font-size: 2rem; }
