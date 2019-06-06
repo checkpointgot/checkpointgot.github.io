@@ -37,10 +37,8 @@ body {
 .info { }
 
 /* Singup */
-.input-group { }
-.submit-button {
-  cursor: pointer;
-}
+.input-group { max-width: 20rem; }
+.submit-button { cursor: pointer; }
 input {
   font-family: inherit;
   font-size: inherit;
