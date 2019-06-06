@@ -89,3 +89,11 @@ input[type="submit"]:hover {
   background: #0000ac;
   border: 0.1em solid #0000ac;
 }
+
+/* Social */
+.social { }
+.social li {
+    display: inline-block;
+    list-style: none;
+}
+.social li:before { }
