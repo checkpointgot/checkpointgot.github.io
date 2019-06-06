@@ -15,8 +15,8 @@ body {
   line-height: 1.8rem;
   color: #0000ac;
   background: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 svg,
 img { }
