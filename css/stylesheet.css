@@ -25,7 +25,11 @@ img { }
 h1 { }
 h2 { }
 p { }
-a {
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #0000ac;
   text-decoration: none;
   outline: none;
   border-bottom: 0.1em solid;
