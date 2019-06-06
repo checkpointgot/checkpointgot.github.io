@@ -18,8 +18,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+svg,
+img { }
 ::webkit-scrollbar { display: none; }
 /* Styling */
+h1 { }
+h2 { }
+p { }
+a {
+  text-decoration: none;
+  outline: none;
+  border-bottom: 0.1em solid;
+}
 
 /* Design elements */
 .page-wrapper { }
