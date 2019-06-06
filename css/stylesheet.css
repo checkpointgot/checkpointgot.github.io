@@ -92,8 +92,3 @@ input[type="submit"]:hover {
 
 /* Social */
 .social { }
-.social li {
-    display: inline-block;
-    list-style: none;
-}
-.social li:before { }
