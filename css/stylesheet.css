@@ -7,6 +7,7 @@
 }
 
 /* General */
+}
 html { font-size: 100% }
 * { box-sizing: border-box; }
 body {
@@ -14,11 +15,10 @@ body {
   font-size: 1.5rem;
   line-height: 1.8rem;
   color: #0000ac;
-  background: #fff;
+  background-color: #fff;
 }
 svg,
 img { }
-::webkit-scrollbar { display: none; }
 
 /* Styling */
 h1 { }
@@ -65,15 +65,14 @@ input {
 input[type="email"] {
   width: 20rem;
   color: #0000ac;
-  /* padding: 0.1rem 0.25rem; */
-  padding: 0.75rem 1rem 0.6rem;
+  padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
   border-bottom: 0.1em solid #0000ac;
 }
 input[type="email"]:focus {
   outline: none;
   color: #fff;
-  background: #0000ac
+  background-color: #0000ac;
 }
 input[type="submit"] {
   color: #0000ac;
@@ -82,18 +81,16 @@ input[type="submit"] {
   margin-bottom: 1rem;
   text-transform: uppercase;
   border: 0.1em solid #0000ac;
-  transition: all .2s;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
 }
 input[type="submit"]:focus,
 input[type="submit"]:hover {
   color: #fff;
-  background: #0000ac;
+  background-color: #0000ac;
   border: 0.1em solid #0000ac;
 }
 
 /* Social */
 .social { }
+
+/* Footer */
+.footer { }
