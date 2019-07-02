@@ -14,7 +14,7 @@ body {
   font-family: CothamSans;
   font-size: 1.5rem;
   line-height: 1.8rem;
-  color: #0000ac;
+  color: #0000AF;
   background-color: #fff;
 }
 svg,
@@ -28,7 +28,7 @@ a,
 a:hover,
 a:active,
 a:visited {
-  color: #0000ac;
+  color: #0000AF;
   text-decoration: none;
   outline: none;
   border-bottom: 0.1em solid;
@@ -64,29 +64,29 @@ input {
 }
 input[type="email"] {
   width: 20rem;
-  color: #0000ac;
+  color: #0000AF;
   padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
-  border-bottom: 0.1em solid #0000ac;
+  border-bottom: 0.1em solid #0000AF;
 }
 input[type="email"]:focus {
   outline: none;
   color: #fff;
-  background-color: #0000ac;
+  background-color: #0000AF;
 }
 input[type="submit"] {
-  color: #0000ac;
+  color: #0000AF;
   background: none;
   padding: 0.75rem 1rem 0.6rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
-  border: 0.1em solid #0000ac;
+  border: 0.1em solid #0000AF;
 }
 input[type="submit"]:focus,
 input[type="submit"]:hover {
   color: #fff;
-  background-color: #0000ac;
-  border: 0.1em solid #0000ac;
+  background-color: #0000AF;
+  border: 0.1em solid #0000AF;
 }
 
 /* Social */
