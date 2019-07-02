@@ -31,7 +31,7 @@ a:visited {
   color: #0000AF;
   text-decoration: none;
   outline: none;
-  border-bottom: 0.1em solid;
+  border-bottom: 0.1rem solid;
 }
 
 /* Design elements */
@@ -45,7 +45,7 @@ a:visited {
 .center { text-align: center; }
 .left { text-align: left; }
 .right { text-align: right; }
-.logo { max-width: 3.125em; }
+.logo { max-width: 3.125rem; }
 
 /* About */
 #content { }
@@ -68,7 +68,7 @@ input[type="email"] {
   color: #0000AF;
   padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
-  border-bottom: 0.1em solid #0000AF;
+  border-bottom: 0.1rem solid #0000AF;
 }
 input[type="email"]:focus {
   outline: none;
@@ -81,13 +81,13 @@ input[type="submit"] {
   padding: 0.75rem 1rem 0.6rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
-  border: 0.1em solid #0000AF;
+  border: 0.1rem solid #0000AF;
 }
 input[type="submit"]:focus,
 input[type="submit"]:hover {
   color: #fff;
   background-color: #0000AF;
-  border: 0.1em solid #0000AF;
+  border: 0.1rem solid #0000AF;
 }
 
 /* Social */
