@@ -12,8 +12,8 @@ html { font-size: 100% }
 * { box-sizing: border-box; }
 body {
   font-family: CothamSans;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
   color: #0000AF;
   background-color: #fff;
 }
