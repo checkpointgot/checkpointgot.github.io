@@ -84,6 +84,7 @@ input[type="email"] {
   margin-bottom: 1rem;
   border-bottom: 0.1rem solid #0000AF;
 }
+input[type="email"]:active,
 input[type="email"]:focus {
   outline: none;
   color: #fff;
