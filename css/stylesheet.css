@@ -12,13 +12,14 @@ html { font-size: 100% }
 * { box-sizing: border-box; }
 body {
   font-family: CothamSans;
-  font-size: 1.5rem;
-  line-height: 1.875rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #0000AF;
   background-color: #fff;
 }
 svg,
-img { }
+img { display: block; }
+::-webkit-scrollbar { display: none; }
 ::placeholder {
   color: #0000AF;
   opacity: 1;
@@ -55,17 +56,16 @@ a:visited {
 .right { text-align: right; }
 .logo {
   display: block;
-  max-width: 1.5rem;
+  max-width: 1rem;
 }
 
 /* About */
 #content { }
-.info { margin-top: 4.5rem; }
-.footer { margin-top: 6rem; }
+.info { margin-top: 2rem; }
+.footer { margin-top: 3rem; }
 .social { }
 
 /* Singup */
-/* .input-group { max-width: 20rem; } */
 .submit-button { cursor: pointer; }
 .input-group label { display: none; }
 input {
@@ -78,7 +78,7 @@ input {
   -moz-appearance: none;
 }
 input[type="email"] {
-  width: 25rem;
+  width: 15rem;
   color: #0000AF;
   padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
