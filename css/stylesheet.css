@@ -19,6 +19,11 @@ body {
 }
 svg,
 img { }
+::placeholder {
+  color: #0000AF;
+  opacity: 1;
+  text-align: center;
+}
 
 /* Styling */
 h1 { }
@@ -42,18 +47,27 @@ a:visited {
   padding: 1.875rem;
 }
 .full { width:100% }
-.center { text-align: center; }
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
 .left { text-align: left; }
 .right { text-align: right; }
-.logo { max-width: 3.125rem; }
+.logo {
+  display: block;
+  max-width: 1.5rem;
+}
 
 /* About */
 #content { }
-.info { }
+.info { margin-top: 4.5rem; }
+.footer { margin-top: 6rem; }
+.social { }
 
 /* Singup */
-.input-group { max-width: 20rem; }
+/* .input-group { max-width: 20rem; } */
 .submit-button { cursor: pointer; }
+.input-group label { display: none; }
 input {
   font-family: inherit;
   font-size: inherit;
@@ -64,7 +78,7 @@ input {
   -moz-appearance: none;
 }
 input[type="email"] {
-  width: 20rem;
+  width: 25rem;
   color: #0000AF;
   padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
