@@ -12,8 +12,8 @@ html { font-size: 100% }
 * { box-sizing: border-box; }
 body {
   font-family: CothamSans;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   color: #0000AF;
   background-color: #fff;
 }
@@ -78,7 +78,7 @@ input {
   -moz-appearance: none;
 }
 input[type="email"] {
-  width: 25rem;
+  width: 20rem;
   color: #0000AF;
   padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
