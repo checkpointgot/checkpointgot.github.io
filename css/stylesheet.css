@@ -118,6 +118,12 @@ input[type="submit"] {
   margin-bottom: 1rem;
   border: 0.1rem solid #0000AF;
 }
+@media screen and (max-width: 414px) {
+  input[type="submit"] {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+}
 input[type="submit"]:focus,
 input[type="submit"]:hover {
   color: #fff;
