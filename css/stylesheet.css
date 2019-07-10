@@ -47,7 +47,12 @@ a:visited {
 }
 
 /* Design elements */
-.page-wrapper { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) }
+.page-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
 .frame {
   /*  margin: 0 auto; */
   max-width: 37.5rem;
