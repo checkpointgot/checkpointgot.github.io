@@ -12,8 +12,8 @@ html { font-size: 100% }
 * { box-sizing: border-box; }
 body {
   font-family: CothamSans;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
+  font-size: 1.250rem;
+  line-height: 1.625rem;
   color: #0000AF;
   background-color: #fff;
 }
@@ -62,13 +62,13 @@ a:visited {
 .right { text-align: right; }
 .logo {
   display: block;
-  max-width: 1rem;
+  max-width: 1.5rem;
 }
 
 /* About */
 #content { }
-.info { margin-top: 2rem; }
-.footer { margin-top: 3rem; }
+.info { margin-top: 3rem; }
+.footer { margin-top: 4.5rem; }
 .social { display: none; }
 
 /* Singup */
@@ -114,9 +114,3 @@ input[type="submit"]:hover {
   background-color: #0000AF;
   border: 0.1rem solid #0000AF;
 }
-
-/* Social */
-.social { }
-
-/* Footer */
-.footer { }
