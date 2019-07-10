@@ -12,8 +12,8 @@ html { font-size: 100% }
 * { box-sizing: border-box; }
 body {
   font-family: CothamSans;
-  font-size: 1.250rem;
-  line-height: 1.625rem;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
   color: #0000AF;
   background-color: #fff;
 }
@@ -47,11 +47,11 @@ a:visited {
 }
 
 /* Design elements */
-.page-wrapper { }
-.frame { 
-  margin: 0 auto;
+.page-wrapper { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) }
+.frame {
+  /*  margin: 0 auto; */
   max-width: 37.5rem;
-  padding: 1.875rem;
+  /*  padding: 1.875rem; */
 }
 .full { width:100% }
 .center {
@@ -84,7 +84,7 @@ input {
   -moz-appearance: none;
 }
 input[type="email"] {
-  width: 20rem;
+  width: 25rem;
   color: #0000AF;
   padding: 0.75rem .5rem 0.6rem;
   margin-bottom: 1rem;
