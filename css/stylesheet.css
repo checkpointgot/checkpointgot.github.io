@@ -32,6 +32,7 @@ img { display: block; }
   opacity: 1;
   text-align: center;
 }
+iframe { display: none }
 
 /* Styling */
 h1 { }
