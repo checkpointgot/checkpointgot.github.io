@@ -27,7 +27,7 @@
                         <div class="input-group">
                             <div class="form-group">
                                 <label for="signup-email">Email address: </label>
-                                <input type="email" class="email-address" name="email-address" id="signup-email" title="Enter your email address" placeholder="heckyeah@thatsoundsgreat.com" autocomplete="email"tabindex="4" required>
+                                <input type="email" class="email-address" name="emailAddress" id="signup-email" title="Enter your email address" placeholder="heckyeah@thatsoundsgreat.com" autocomplete="email"tabindex="4" required>
                             </div>
                             <div class="clear"><input type="submit" class="submit-button" name="subscribe" id="subscribe-button" title="Subscribe to Checkpoint" value="Sign me up!" tabindex="5"></div>
                         </div>
@@ -48,7 +48,7 @@
                 document.getElementById('signup-email').placeholder="Thank you!";
             }
             function submitForm() {
-                if (document.signup.email-address.value=='') {
+                if (document.signup.emailAddress.value=='') {
                     return false;
                 } else {
                     setTimeout(function() { clearForm() }, 700);
