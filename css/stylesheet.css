@@ -19,8 +19,9 @@ body {
 }
 @media screen and (max-width: 414px) {
   body {
-    font-size: .8125rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: .05rem;
   }
 }
 svg,
@@ -99,9 +100,10 @@ input[type="email"]:focus {
 }
 @media screen and (max-width: 414px) {
   input[type="email"] {
-    font-size: .8125rem;
-    line-height: 1rem;
-    width: 15rem;
+    width: 16rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: .05rem;
   }
 }
 input[type="submit"] {
@@ -117,8 +119,9 @@ input[type="submit"] {
 }
 @media screen and (max-width: 414px) {
   input[type="submit"] {
-    font-size: .8125rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: .05rem;
   }
 }
 input[type="submit"]:focus,
