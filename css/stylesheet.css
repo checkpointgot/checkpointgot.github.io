@@ -49,7 +49,10 @@ a:visited {
 .frame {
   margin: 0 auto;
   max-width: 43.5rem;
-  padding: 1.875rem;
+  padding: 6.25rem 1.875rem;
+}
+@media screen and (max-width: 414px;) {
+    .frame { padding: 1.875rem; }
 }
 .full { width: 100% }
 .center {
