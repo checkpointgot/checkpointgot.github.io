@@ -1,7 +1,7 @@
 ![alt text](favicon-32x32.png "Checkpoint")
 # Subscribe to Checkpoint
 
-Checkpoint is a mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit sized recommendations of games.
+Checkpoint is a mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit-sized recommendations of games.
 
 Sign up at [check-point.email](https://check-point.email).
 
