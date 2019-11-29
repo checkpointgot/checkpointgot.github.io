@@ -1,67 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Checkpoint is a monthly newsletter about videogames.">
-        <meta name="keywords" content="Newsletter, News, Videogames, Games, Review">
-        <meta name="author" content="Sam B. & Joes R.">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Author: Joes Roosens | Checkpoint | check-point.email -->
+        <meta charset="utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
         <title>Subscribe to Checkpoint</title>
-        <link rel="shortcut icon" href="./img/icons/favicon.ico">
-        <link rel="apple-touch-icon" href="./img/icons/touch.png">
-        <link rel="stylesheet" href="./css/stylesheet.css">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@checkpointgot">
-        <meta name="twitter:creator" content="@checkpointgot">
-        <meta name="twitter:title" content="Subscribe to Checkpoint">
+
+        <!-- CSS Reset -->
+        <style>
+        
+        html {
+            font-size: 3.8px;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Start auto-resizing */
+        @media screen and (min-width: 380px) and (min-height: 380px) {
+            html { font-size: 1vmin; }
+        }
+
+        /* Stop auto-resizing */
+        @media screen and (min-width: 1000px) and (min-height: 1000px) {
+            html { font-size: 10px; }
+        }
+
+        /* Box sizing rules */
+        *,
+        *::before,
+        *::after { box-sizing: border-box; }
+
+        /* Remove default padding */
+        ul[class],
+        ol[class] { padding: 0; }
+
+        /* Remove default margin */
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        ul[class],
+        ol[class],
+        li,
+        figure,
+        figcaption,
+        blockquote,
+        dl,
+        dd { margin: 0; }
+
+        /* Set core body defaults */
+        body {
+            line-height: 1;
+            text-rendering: optimizeSpeed;
+            scroll-behavior: smooth;
+        }
+
+        /* Remove list styles on ul, ol elements with a class attribute */
+        ul[class],
+        ol[class] { list-style: none; }
+
+        /* All elements that don't have a class get default styles */
+        a:not([class]) { text-decoration-skip-ink: auto;}
+
+        /* Make images easier to work with */
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        /* Natural flow and rhythm in articles by default */
+        article > * + * { margin-top: 1em; }
+
+        /* Inherit fonts for inputs and buttons */
+        input,
+        button,
+        textarea,
+        select { font: inherit; }
+
+        /* Remove all animations and transitions for people that prefer not to see them */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        </style>
+
+        <!-- Styling and fonts -->
+        <style>
+
+        /* Font */
+        @font-face {
+            font-family: "CothamSans";
+            src: url(./CothamSans.otf);
+            font-weight: normal;
+            font-style: normal
+        }
+
+        body {
+            font-family: "CothamSans", Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            line-height: 1.25;
+            letter-spacing: .1rem;
+            color: #0000af;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        body * + * { margin-top: 1rem; }
+
+        @media screen and (max-width: 800px) {
+            body { font-size: 4rem; }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+            font-size: inherit;
+            font-weight: inherit;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a[href="https://twitter.com/checkpointgot"]:after {
+            position: relative;
+            top: .15em;
+            display: inline-block;
+            height: 2em;
+            width: 3.15em;
+            background-image: url(./twitter.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: contain;
+            content: "";
+        }
+
+        section { padding: 10rem 0; }
+
+        #content-about:before {
+            position: relative;
+            top: .15em;
+            margin-bottom: 3em;
+            display: block;
+            height: 1.5em;
+            width: auto;
+            background-image: url(./flag.gif);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: contain;
+            content: "";
+        }
+
+        ::-webkit-scrollbar { display: none; }
+
+        ::placeholder { color: #0000af; }
+
+        /* Signup form */
+        p,
+        form {
+            margin: 2rem auto;
+            max-width: 60rem;
+            padding: 0 4rem;
+        }
+
+       @media screen and (max-width: 800px) {
+            p,
+            form { max-width: 80rem;}
+        }
+
+        label { display: block; }
+
+        input,
+        button {
+            margin: 0;
+            display: inline-block;
+            padding: 0;
+            font-size: inherit;
+            letter-spacing: inherit;
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+            -webkit-appearance: none;
+            transition: .2s;
+        }
+
+        input:focus,
+        button:focus {
+            outline: none;
+        }
+
+        form#signup-form {
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(12, 1fr);
+            -ms-grid-rows: auto;
+            grid-template-rows: auto;
+            grid-column-gap: .5em;
+            grid-row-gap: 1em;
+            -ms-justify-items: start;
+            justify-items: start;
+            -ms-align-items: center;
+            align-items: center;
+            padding: .5em .75em .75em .75em;
+        }
+
+        form p {
+            -ms-grid-row: 1;
+            -ms-grid-row-span: 1;
+            grid-row: 1 / span 1;
+
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 12;
+            grid-column: 1 / span 12;
+
+            -ms-justify-self: stretch;
+            justify-self: stretch;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        #signup-status.success:before { content: "→ "; }
+
+        #signup-status.error { color: #af0000; }
+
+        #signup-status.error:before { content: "✕ "; }
+
+        label#signup-email {
+            font-size: 0;
+            color: transparent;
+
+            -ms-justify-self: stretch;
+            justify-self: stretch;
+        }
+
+        label#signup-email {
+            -ms-grid-row: 2;
+            -ms-grid-row-span: 1;
+            grid-row: 2 / span 1;
+
+            -ms-grid-column: 3;
+            -ms-grid-column-span: 8;
+            grid-column: 3 / span 8;
+        }
+
+        label#signup-email input {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 2rem;
+            color: #0000af;
+            text-align: center;
+            border-bottom: .1em solid #0000af;
+        }
+
+        label#signup-email input:active,
+        label#signup-email input:focus {
+            color: #fff;
+            background-color: #0000af;
+        }
+
+        button#signup-submit {
+            -ms-grid-row: 3;
+            grid-row: 3;
+            -ms-grid-column: 5;
+            -ms-grid-column-span: 4;
+            grid-column: 5 / span 4;
+            -ms-justify-self: stretch;
+            justify-self: stretch;
+            -ms-align-self: stretch;
+            align-self: stretch;
+
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            color: #0000af;
+            background-color: #fff;
+            border: .1em solid #0000af;
+            cursor: pointer;
+        }
+
+        button#signup-submit:hover {
+            color: #fff;
+            background-color: #0000af;
+        }
+
+        button#signup-submit.spinner { color: transparent; }
+
+        button#signup-submit.spinner:after {
+            position: absolute;
+            top: 25%;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background-image: url(./loading.gif);
+            background-size: contain;
+            image-rendering: crisp-edges;
+            background-repeat: no-repeat;
+            background-position: center center;
+            content: "";
+        }
+
+        @media screen and (max-width: 800px) {
+            label#signup-email input { font-size: 4rem; }
+            
+            label#signup-email {
+                -ms-grid-row: 2;
+                -ms-grid-row-span: 1;
+                grid-row: 2 / span 1;
+                -ms-grid-column: 2;
+                -ms-grid-column-span: 10;
+                grid-column: 2 / span 10;
+            }
+
+            button#signup-submit {
+                -ms-grid-row: 3;
+                -ms-grid-row-span: 1;
+                grid-row: 3 / span 1;
+                -ms-grid-column: 4;
+                -ms-grid-column-span: 6;
+                grid-column: 4 / span 6;
+                -ms-justify-self: center;
+                justify-self: center;
+                font-size: 4rem;
+            }
+        }
+        
+        </style>
+
+        <!-- Icons -->
+        <meta name="apple-mobile-web-app-title" content="Checkpoint">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+        <!-- Search & Social optimisation -->
+        <meta name="title" content="Subscribe to Checkpoint">
+        <meta property="og:title" content="Subscribe to Checkpoint">
+        <meta property="twitter:title" content="Subscribe to Checkpoint">
+
+        <meta name="description" content="A mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit sized recommendations of games.">
+        <meta name="og:description" content="A mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit sized recommendations of games.">
         <meta name="twitter:description" content="A mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit sized recommendations of games.">
-        <meta name="twitter:image" content="https://check-point.email/img/checkpoint-twitter_card.png">
+
+        <meta property="og:type" content="website">
+        <meta property="twitter:card" content="summary_large_image">
+
+        <meta property="og:url" content="https://check-point.email">
+        <meta property="twitter:url" content="https://check-point.email">
+
+        <meta property="og:image" content="https://check-point.email/social-card.jpg">
+        <meta property="twitter:image" content="https://check-point.email/social-card.jpg">
+        <meta property="twitter:site" content="@checkpointgot">
+        <meta property="twitter:creator" content="@checkpointgot">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
-        <div class="page-wrapper">
-            <div class="frame full center">
-                <div class="logo center">
-                        <img src="./img/flag.gif" width="50px"/>
-                </div>
-                <div class="info">
-                    <p>Hi! We're Checkpoint, a mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit-sized recommendations of games that might've slipped under your radar from us two and guests.</p>
-                    <p>Joes & Sam</p>
-                </div>
-                <div id="signup">
-                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc-SE4DHz0o_geQ36VNLGM8-UYrhTXmxKkVdqN1MKkJE2TddA/formResponse" method="POST" class="validate" id="signup" name="signup" target="no-target" onsubmit="return submitForm()">
-                        <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
-                        <div class="input-group">
-                            <div class="form-group">
-                                <label for="signup-email">Email address: </label>
-                                <input type="email" class="email-address" name="emailAddress" id="signup-email" title="Enter your email address" placeholder="heckyeah@thatsoundsgreat.com" autocomplete="email"tabindex="4" required>
-                            </div>
-                            <div class="clear"><input type="submit" class="submit-button" name="subscribe" id="subscribe-button" title="Subscribe to Checkpoint" value="Sign me up!" tabindex="5"></div>
-                        </div>
-                    </form>
-                </div>
-                <div class="footer">
-                    <div class="logo center">
-                        <a href="https://twitter.com/checkpointgot" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 588"><path fill="#0000AF" d="M597.79,203.16a30.49,30.49,0,0,1,.35,3.42q0,24.72,0,49.43v3.74h56.25v56.37H598.29V429H541.93v56.47H485.3v56.31H203.18V485.69h56.11V429.31H203V372.64H146.74V316.32h56V259.76h-56V203.55H315.82v56h56.49V203.44h56.41V147.1H541.67v56c1,.11,1.62.23,2.22.23h52.65c.45,0,.89-.08,1.33-.12Z"/><path fill="#0000AF" d="M597.87,203.22a28,28,0,0,0,.33-3.15q0-24.84,0-49.67v-3.31h56.18v55.85a2.32,2.32,0,0,1-.75.28q-27.92,0-55.84-.05Z"/></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <main>
+            <section id="content-about">
+                <p>Hi! We're Checkpoint, a mid-monthly summary of goings on in the video game sphere, highlighting interesting writing and news stories plus bit-sized recommendations of games that might've slipped under your radar from us two and guests.</p>
+                <p>Joes & Sam</p>
+                <!-- Begin MailChimp Signup Form -->
+                <form id="signup-form" name="mc-embedded-subscribe-form" action="https://email.us3.list-manage.com/subscribe/post-json?u=59f0fb06d26f59de8813f63bb&amp;id=5c8c19fa30&c=?" method="post" novalidate>
+                    <p id="signup-status">Get Checkpoint in your inbox.</p>
+                    <label id="signup-email" for="email">
+                        Email
+                        <input type="email" class="required" name="EMAIL" title="Fill in your email address" placeholder="heckyeah@thatsoundsgreat.com" tabindex="1" required autocomplete="email" aria-label="Fill in your email address"/>
+                    </label>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_59f0fb06d26f59de8813f63bb_5c8c19fa30" tabindex="-1" value=""></div>
+                    <button class="signup-button" id="signup-submit" name="subscribe" title="Sign me up!" tabindex="2" aria-label="Submit">Sign me up!</button>
+                </form>
+                <!--End MailChimp Signup Formp -->
+            </section>
+        </main>
+
+        <footer>
+            <p><a href="https://twitter.com/checkpointgot" title="Follow @checkpointgot on Twitter"></a></p>
+        </footer>
+
+        <script src="./signup.js"></script>
+        
         <script>
-            function clearForm() {
-                document.getElementById('signup-email').value="";
-                document.getElementById('signup-email').placeholder="Thank you!";
-            }
-            function submitForm() {
-                if (document.signup.emailAddress.value=='') {
-                    return false;
-                } else {
-                    setTimeout(function() { clearForm() }, 700);
-                    return true;
+            // Make all external links open in new window
+            window.onload = function () {
+                for(var tagArray = document.getElementsByTagName("a"), index = 0;index < tagArray.length;index++) {
+                    var b = tagArray[index];
+                    b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank") && (b.rel = "noopener")
                 }
-            }
+            };
         </script>
+
     </body>
 </html>
