@@ -54,8 +54,14 @@ $(document).ready(function() {
                             $("#signup-status").addClass("success");
                         }
 
+                        else if (data.includes("We need to confirm your email address")) {
+                            $("#signup-status").text("Thank you! Please check your email inbox to confirm your subscription.");
+                            $("#signup-status").removeClass("error");
+                            $("#signup-status").addClass("success");
+                        }
+
                         else if (data.includes("Thank you for subscribing")) {
-                            $("#signup-status").text("Thanks, you're subscribed!");
+                            $("#signup-status").text("Thank you! Please check your email inbox to confirm your subscription.");
                             $("#signup-status").removeClass("error");
                             $("#signup-status").addClass("success");
                         }
